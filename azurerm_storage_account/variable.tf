@@ -1,3 +1,3 @@
-variable "def" {
+variable "storage" {
   
 }
