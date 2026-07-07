@@ -1,3 +1,3 @@
-variable "jkl" {
+variable "subnets" {
   
 }
