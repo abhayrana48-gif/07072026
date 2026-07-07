@@ -14,7 +14,7 @@ storage = {
           name = "storage"
   location = "westus"
   resource_group_name = "rgnetflix"
-  account_tier = "standard"
+  account_tier = "Standard"
   account_replication_type = "GRS"
     }
 }
