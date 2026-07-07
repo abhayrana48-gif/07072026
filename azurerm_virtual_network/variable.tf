@@ -1,3 +1,3 @@
-variable "ghi" {
+variable "vnets" {
   
 }
