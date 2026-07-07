@@ -1,8 +1,8 @@
 resource "azurerm_storage_account" "this" {
   for_each = var.storage
-  name = var.value.name
-  location = var.value.location
-  resource_group_name = var.value.resource_group_name
-  account_tier = var.value.access_tier
-  account_replication_type = var.value.account_replication_type
+  name = each.value.name
+  location = each.value.location
+  resource_group_name = each.value.resource_group_name
+  account_tier = each.value.access_tier
+  account_replication_type = each.value.account_replication_type
 }
