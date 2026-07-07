@@ -22,6 +22,7 @@ jobs:
           terraform_version: "1.14.6"
       - name: terraform-commands
         run: |
+          cd enviornment
           terraform init
           terraform validate
           terraform plan
