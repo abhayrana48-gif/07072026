@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "this" {
-  for_each = var.def
+  for_each = var.storage
   name = var.value.name
   location = var.value.location
   resource_group_name = var.value.resource_group_name
